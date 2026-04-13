@@ -4,6 +4,12 @@ PyTorch project for Automatic Speech Recognition (ASR) of spoken digits with mac
 
 The architecture of the lightweight neural network is inspired by the DeepSpeech [^2] model. Input audio signals are first converted into mel spectrograms, which represent the frequency content of the signal over time. Convolutional layers are used to extract local temporal patterns from the mel spectrograms. Then, bidirectional Gated Recurrent Unit (GRU) layers are used to learn long-term temporal dependencies in the speech signal by processing the audio sequence both forward and backward in time. Finally, a fully connected layer maps the learned feature representation to the output classes, producing the model’s prediction vector.
 
+# Plot
+
+Training and validation losses and accuracies on the AudioMNIST dataset.
+
+<img width="1200" height="400" alt="5_epochs_metrics" src="https://github.com/user-attachments/assets/9dd6fc45-cff2-4a40-8691-a542130b146c" />
+
 # Live Inference Demonstration Video
 
 A quick video with sound to demonstrate the live inference of a trained model with a simple to use GUI. On button press the audio of a microphone is recorded for a short period. The audio signal is then passed to the model and its prediction is displayed.
@@ -24,7 +30,7 @@ https://github.com/user-attachments/assets/28afed28-cc07-4039-a2f1-2c29b5d4b09d
 
 # Requirements
 
-Requires properly installed FFmpeg for torchaudio.
+Requires properly installed FFmpeg for torchaudio. See requirements.txt
 
 ## References
 

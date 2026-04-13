@@ -11,8 +11,8 @@ import threading
 SAMPLE_RATE = 48000
 DURATION = 1  # seconds
 N_MELS = 40
-MODEL_PATH = "models/no_speech/no_speech_model.pth"
-DATA_CSV = "data/audioMNIST2.csv"
+MODEL_PATH = "models/no_speech/5_epochs_model.pth"
+DATA_CSV = "data/audioMNIST.csv"
 AUDIO_DEVICE_INDEX = None  # Set to None to use default device
 
 # Load labels from CSV

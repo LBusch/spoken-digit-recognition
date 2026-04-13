@@ -18,6 +18,8 @@ https://github.com/user-attachments/assets/28afed28-cc07-4039-a2f1-2c29b5d4b09d
 
 # How to Use
 
+Download AudioMNIST dataset from kaggle and extract it into the data subdirectory: [Link](https://www.kaggle.com/datasets/sripaadsrinivasan/audio-mnist)
+
 `organise_data.py`: In case of downloading the AudioMNISt dataset from kaggle, this script reorganizes the file structure into subdirectories for each digit.
 
 `record_audio.py`: Script for recording your own audio samples that can be used for training.

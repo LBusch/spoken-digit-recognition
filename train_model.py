@@ -19,8 +19,8 @@ SAMPLE_RATE = 48000
 BATCH_SIZE = 32
 LR = 0.0001
 NUM_EPOCHS = 5
-DATA_CSV = "data/audioMNIST2.csv"
-EXPERIMENT_NAME = "no_speech"
+DATA_CSV = "data/audioMNIST.csv"
+EXPERIMENT_NAME = "5_epochs"
 
 # --- Data Preparation ---
 data_df = pd.read_csv(DATA_CSV)
